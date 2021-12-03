@@ -7,7 +7,9 @@ class misc(commands.Cog):
 
     @commands.command()
     async def ping(self, ctx):
-        await ctx.send(f'Pong! {round(self.client.latency * 1000)}ms')
+        p = round(self.client.latency * 1000)
+        print(f"pinged: {p}")
+        await ctx.send(f'Pong! {p}ms')
 
     @commands.command()
     async def die(self, ctx):

@@ -6,6 +6,10 @@ authors = ["Your Name <you@example.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+discord = "^1.7.3"
+youtube_dl = "^2021.6.6"
+python-dotenv = "^0.19.2"
+Flask = "^2.0.2"
 
 [tool.poetry.dev-dependencies]
 
