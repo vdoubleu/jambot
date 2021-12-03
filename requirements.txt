@@ -1,0 +1,5 @@
+flask
+python-dotenv
+discord
+youtube_dl
+pynacl
